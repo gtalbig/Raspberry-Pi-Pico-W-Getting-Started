@@ -5,7 +5,7 @@
 # It is wired to the wireless chip, so you address it by the name "LED".
 
    from machine import Pin
-   from time import sleep
+   import time
 
    led = Pin("LED", Pin.OUT)   # onboard LED
 
